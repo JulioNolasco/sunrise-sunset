@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "${APP_PORT}:${APP_PORT}"
+    environment:
+      - FLASK_APP=app/flaskapp.py
+

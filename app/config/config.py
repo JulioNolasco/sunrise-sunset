@@ -1,0 +1,3 @@
+LATITUDE_RANGE = (-90.0, 90.0)
+LONGITUDE_RANGE = (-180.0, 180.0)
+VALID_TYPES = ['sunset', 'sunrise']
