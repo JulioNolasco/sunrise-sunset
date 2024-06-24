@@ -1,4 +1,4 @@
-# Voxus
+# Micro serviço simples que retorna qual próximo dia e horário do por ou nascer do sol, de acordo com lagitude e longitude passada.
 
 # Configuração
 - Faça o clone do arquivo ```.env.example``` com o nome de ```.env```
